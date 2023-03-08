@@ -12,7 +12,7 @@ router.route("/:id").get ((req, res) => {
     res.status(200).json({message: `Get contact for ${req.params.id}`});
 });
 
-dasdsa
+
 router.route("/:id").put ((req, res) => {
     res.status(200).json({message: `Update contact for ${req.params.id}`});
 });
